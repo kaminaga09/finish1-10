@@ -74,12 +74,16 @@ footer {
     width: 100%;
     height: auto;
     display: block;
-    padding: 50px;
   }
 
   .step-box {
     width: 90%;
     height: auto;
+    margin: 20px auto;
+  }
+
+  .step-box:last-child {
+    margin: auto;
   }
 
   .step-num {
